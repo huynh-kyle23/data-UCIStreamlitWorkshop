@@ -1,8 +1,6 @@
-import import_ipynb
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import random
 from utils.Eda_scripts import get_data
 import seaborn as sns
 
