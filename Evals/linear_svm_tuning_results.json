@@ -1,0 +1,146 @@
+[
+  {
+    "max_features": 10000,
+    "C": 0.1,
+    "macro_precision": 0.398,
+    "macro_recall": 0.811,
+    "macro_f1": 0.518,
+    "macro_auc_pr": 0.611,
+    "per_label_auc_pr": {
+      "toxic": 0.84,
+      "severe_toxic": 0.409,
+      "obscene": 0.847,
+      "threat": 0.422,
+      "insult": 0.748,
+      "identity_hate": 0.397
+    }
+  },
+  {
+    "max_features": 10000,
+    "C": 1.0,
+    "macro_precision": 0.427,
+    "macro_recall": 0.711,
+    "macro_f1": 0.527,
+    "macro_auc_pr": 0.583,
+    "per_label_auc_pr": {
+      "toxic": 0.824,
+      "severe_toxic": 0.365,
+      "obscene": 0.821,
+      "threat": 0.421,
+      "insult": 0.71,
+      "identity_hate": 0.357
+    }
+  },
+  {
+    "max_features": 10000,
+    "C": 10,
+    "macro_precision": 0.414,
+    "macro_recall": 0.619,
+    "macro_f1": 0.488,
+    "macro_auc_pr": 0.524,
+    "per_label_auc_pr": {
+      "toxic": 0.793,
+      "severe_toxic": 0.286,
+      "obscene": 0.772,
+      "threat": 0.382,
+      "insult": 0.646,
+      "identity_hate": 0.264
+    }
+  },
+  {
+    "max_features": 20000,
+    "C": 0.1,
+    "macro_precision": 0.439,
+    "macro_recall": 0.806,
+    "macro_f1": 0.554,
+    "macro_auc_pr": 0.624,
+    "per_label_auc_pr": {
+      "toxic": 0.854,
+      "severe_toxic": 0.422,
+      "obscene": 0.863,
+      "threat": 0.431,
+      "insult": 0.764,
+      "identity_hate": 0.411
+    }
+  },
+  {
+    "max_features": 20000,
+    "C": 1.0,
+    "macro_precision": 0.494,
+    "macro_recall": 0.684,
+    "macro_f1": 0.568,
+    "macro_auc_pr": 0.598,
+    "per_label_auc_pr": {
+      "toxic": 0.837,
+      "severe_toxic": 0.378,
+      "obscene": 0.839,
+      "threat": 0.428,
+      "insult": 0.728,
+      "identity_hate": 0.378
+    }
+  },
+  {
+    "max_features": 20000,
+    "C": 10,
+    "macro_precision": 0.477,
+    "macro_recall": 0.576,
+    "macro_f1": 0.514,
+    "macro_auc_pr": 0.529,
+    "per_label_auc_pr": {
+      "toxic": 0.796,
+      "severe_toxic": 0.285,
+      "obscene": 0.783,
+      "threat": 0.381,
+      "insult": 0.646,
+      "identity_hate": 0.279
+    }
+  },
+  {
+    "max_features": 30000,
+    "C": 0.1,
+    "macro_precision": 0.456,
+    "macro_recall": 0.799,
+    "macro_f1": 0.567,
+    "macro_auc_pr": 0.628,
+    "per_label_auc_pr": {
+      "toxic": 0.857,
+      "severe_toxic": 0.425,
+      "obscene": 0.866,
+      "threat": 0.437,
+      "insult": 0.767,
+      "identity_hate": 0.419
+    }
+  },
+  {
+    "max_features": 30000,
+    "C": 1.0,
+    "macro_precision": 0.521,
+    "macro_recall": 0.67,
+    "macro_f1": 0.581,
+    "macro_auc_pr": 0.604,
+    "per_label_auc_pr": {
+      "toxic": 0.842,
+      "severe_toxic": 0.381,
+      "obscene": 0.844,
+      "threat": 0.437,
+      "insult": 0.732,
+      "identity_hate": 0.389
+    }
+  },
+  {
+    "max_features": 30000,
+    "C": 10,
+    "macro_precision": 0.506,
+    "macro_recall": 0.565,
+    "macro_f1": 0.527,
+    "macro_auc_pr": 0.534,
+    "per_label_auc_pr": {
+      "toxic": 0.802,
+      "severe_toxic": 0.279,
+      "obscene": 0.792,
+      "threat": 0.394,
+      "insult": 0.648,
+      "identity_hate": 0.29
+    }
+  }
+]

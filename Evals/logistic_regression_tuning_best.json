@@ -1,0 +1,16 @@
+{
+  "max_features": 40000,
+  "C": 100,
+  "macro_precision": 0.531,
+  "macro_recall": 0.693,
+  "macro_f1": 0.594,
+  "macro_auc_pr": 0.618,
+  "per_label_auc_pr": {
+    "toxic": 0.843,
+    "severe_toxic": 0.382,
+    "obscene": 0.854,
+    "threat": 0.474,
+    "insult": 0.738,
+    "identity_hate": 0.417
+  }
+}

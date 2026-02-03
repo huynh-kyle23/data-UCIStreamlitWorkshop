@@ -1,0 +1,32 @@
+[
+  {
+    "config": "without_warmup_and_decay",
+    "macro_precision": 0.409,
+    "macro_recall": 0.338,
+    "macro_f1": 0.364,
+    "macro_auc_pr": 0.521,
+    "per_label_auc_pr": {
+      "toxic": 0.876,
+      "severe_toxic": 0.386,
+      "obscene": 0.883,
+      "threat": 0.089,
+      "insult": 0.748,
+      "identity_hate": 0.141
+    }
+  },
+  {
+    "config": "with_warmup_and_decay",
+    "macro_precision": 0.393,
+    "macro_recall": 0.330,
+    "macro_f1": 0.357,
+    "macro_auc_pr": 0.502,
+    "per_label_auc_pr": {
+      "toxic": 0.840,
+      "severe_toxic": 0.350,
+      "obscene": 0.842,
+      "threat": 0.095,
+      "insult": 0.733,
+      "identity_hate": 0.154
+    }
+  }
+]

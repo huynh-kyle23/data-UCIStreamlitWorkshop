@@ -1,0 +1,16 @@
+{
+  "lr": 5e-05,
+  "batch_size": 64,
+  "macro_precision": 0.498,
+  "macro_recall": 0.439,
+  "macro_f1": 0.44,
+  "macro_auc_pr": 0.548,
+  "per_label_auc_pr": {
+    "toxic": 0.894,
+    "severe_toxic": 0.489,
+    "obscene": 0.898,
+    "threat": 0.057,
+    "insult": 0.786,
+    "identity_hate": 0.165
+  }
+}

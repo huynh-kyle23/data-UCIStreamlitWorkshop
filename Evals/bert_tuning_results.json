@@ -1,0 +1,98 @@
+[
+  {
+    "lr": 1e-05,
+    "batch_size": 64,
+    "macro_precision": 0.383,
+    "macro_recall": 0.388,
+    "macro_f1": 0.385,
+    "macro_auc_pr": 0.532,
+    "per_label_auc_pr": {
+      "toxic": 0.877,
+      "severe_toxic": 0.458,
+      "obscene": 0.881,
+      "threat": 0.055,
+      "insult": 0.768,
+      "identity_hate": 0.152
+    }
+  },
+  {
+    "lr": 1e-05,
+    "batch_size": 128,
+    "macro_precision": 0.416,
+    "macro_recall": 0.297,
+    "macro_f1": 0.343,
+    "macro_auc_pr": 0.509,
+    "per_label_auc_pr": {
+      "toxic": 0.852,
+      "severe_toxic": 0.432,
+      "obscene": 0.832,
+      "threat": 0.056,
+      "insult": 0.738,
+      "identity_hate": 0.147
+    }
+  },
+  {
+    "lr": 2e-05,
+    "batch_size": 64,
+    "macro_precision": 0.417,
+    "macro_recall": 0.404,
+    "macro_f1": 0.395,
+    "macro_auc_pr": 0.543,
+    "per_label_auc_pr": {
+      "toxic": 0.89,
+      "severe_toxic": 0.48,
+      "obscene": 0.894,
+      "threat": 0.052,
+      "insult": 0.786,
+      "identity_hate": 0.157
+    }
+  },
+  {
+    "lr": 2e-05,
+    "batch_size": 128,
+    "macro_precision": 0.383,
+    "macro_recall": 0.386,
+    "macro_f1": 0.384,
+    "macro_auc_pr": 0.534,
+    "per_label_auc_pr": {
+      "toxic": 0.884,
+      "severe_toxic": 0.461,
+      "obscene": 0.883,
+      "threat": 0.048,
+      "insult": 0.778,
+      "identity_hate": 0.149
+    }
+  },
+  {
+    "lr": 5e-05,
+    "batch_size": 64,
+    "macro_precision": 0.498,
+    "macro_recall": 0.439,
+    "macro_f1": 0.44,
+    "macro_auc_pr": 0.548,
+    "per_label_auc_pr": {
+      "toxic": 0.894,
+      "severe_toxic": 0.489,
+      "obscene": 0.898,
+      "threat": 0.057,
+      "insult": 0.786,
+      "identity_hate": 0.165
+    }
+  },
+  {
+    "lr": 5e-05,
+    "batch_size": 128,
+    "macro_precision": 0.427,
+    "macro_recall": 0.412,
+    "macro_f1": 0.401,
+    "macro_auc_pr": 0.541,
+    "per_label_auc_pr": {
+      "toxic": 0.889,
+      "severe_toxic": 0.474,
+      "obscene": 0.897,
+      "threat": 0.052,
+      "insult": 0.782,
+      "identity_hate": 0.155
+    }
+  }
+]

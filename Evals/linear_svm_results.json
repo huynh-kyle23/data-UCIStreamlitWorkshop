@@ -1,0 +1,14 @@
+{
+  "macro_precision": 0.371,
+  "macro_recall": 0.735,
+  "macro_f1": 0.485,
+  "macro_auc_pr": 0.546,
+  "per_label_auc_pr": {
+    "toxic": 0.743,
+    "severe_toxic": 0.279,
+    "obscene": 0.752,
+    "threat": 0.408,
+    "insult": 0.669,
+    "identity_hate": 0.428
+  }
+}
